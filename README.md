@@ -32,6 +32,10 @@ The [dataset](./notoglot_mini/data/notoglot_scripts.json) is a JSON file that co
 
 - The most unique data point in each script entry is `summary`, which contains a single-paragraph, hand-curated description of the script. 
 
+- This package is currently at “alpha stage”, though we believe that the quality of the data is good. 
+
+- In future, this package will be published to PyPi. 
+
 - Additional data points about each script will be published in future. 
 
 ## Python package
@@ -49,6 +53,13 @@ import notoglot_mini
 scripts = notoglot_mini.LoadScripts()
 print(scripts["Armn"]["summary"])
 ```
+
+### Other Python packages of interest
+
+- [gflanguages](https://github.com/googlefonts/lang/): additional info about writing systems, languages and regions
+- [fontTools.unicodedata](https://github.com/fonttools/fonttools/tree/main/Lib/fontTools/unicodedata): info about scripts and their code points
+- [unicodedata2](https://github.com/fonttools/unicodedata2): info about the Unicode codepoints and their properties
+- [aksharamukha](https://github.com/virtualvinodh/aksharamukha-python): transliteration between various scripts
 
 ## License
 
