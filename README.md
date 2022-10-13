@@ -7,7 +7,7 @@ Currently, the package is tailored for the [Noto fonts](https://fonts.google.com
 
 ## Dataset
 
-The [dataset](./notoglot_mini/data/notoglot_scripts.json) is a JSON file that contains information about the world’s scripts, structured like so: 
+The [dataset](./notoglot_mini/data/notoglot_scripts.json) is a JSON file that contains information about the world’s scripts, keyed by the script’s [ISO 15924 code](https://en.wikipedia.org/wiki/ISO_15924), and structured like so:
 
 ```
     "Armn": {
