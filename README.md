@@ -9,7 +9,8 @@ Currently, the package is tailored for the [Noto fonts](https://fonts.google.com
 
 The [dataset](./notoglot_mini/data/notoglot_scripts.json) is a JSON file that contains information about the world’s scripts, keyed by the script’s [ISO 15924 code](https://en.wikipedia.org/wiki/ISO_15924), and structured like so:
 
-```
+```json
+{
     "Armn": {
         "id": "Armn",
         "name": "Armenian",
@@ -25,10 +26,13 @@ The [dataset](./notoglot_mini/data/notoglot_scripts.json) is a JSON file that co
             "WiktionaryLangs": "https://en.wiktionary.org/wiki/Category:Armenian_script_languages",
             "r12a": "https://r12a.github.io/scripts/links?iso=Armn"
         }
-    },
+    }
+}
 ```
 
-Additional data points about each script will be published in future. 
+- The most unique data point in each script entry is `summary`, which contains a single-paragraph, hand-curated description of the script. 
+
+- Additional data points about each script will be published in future. 
 
 ## Python package
 
