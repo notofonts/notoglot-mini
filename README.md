@@ -5,6 +5,15 @@ Simple Python package and dataset that provides information about the world’s 
 
 Currently, the package is primarily tailored for the [Noto fonts](https://fonts.google.com/noto) project, but is already useful beyond it.
 
+- This package is currently at “alpha stage”, though we believe that the quality of the data is good.
+
+- Currently, this package is not published to PyPI.
+
+- In future, this package will be replaced by a more comprehensive `notoglot` package, so the current API may change.
+
+- Additional data points about each script will be published in future.
+
+
 ## Dataset
 
 The [dataset](./notoglot_mini/data/notoglot_scripts.json) is a JSON file that contains information about the world’s scripts, keyed by the script’s [ISO 15924 code](https://en.wikipedia.org/wiki/ISO_15924), and structured like so:
@@ -31,12 +40,6 @@ The [dataset](./notoglot_mini/data/notoglot_scripts.json) is a JSON file that co
 ```
 
 - The most unique data point in each script entry is `summary`, which contains a single-paragraph, hand-curated description of the script. 
-
-- This package is currently at “alpha stage”, though we believe that the quality of the data is good. 
-
-- In future, this package will be published to PyPi. 
-
-- Additional data points about each script will be published in future. 
 
 ## Python package
 
