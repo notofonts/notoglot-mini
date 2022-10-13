@@ -3,7 +3,7 @@
 
 Simple Python package and dataset that provides information about the world’s scripts (writing systems). 
 
-Currently, the package is tailored for the [Noto fonts](https://fonts.google.com/noto) project, but is already useful beyond it.
+Currently, the package is primarily tailored for the [Noto fonts](https://fonts.google.com/noto) project, but is already useful beyond it.
 
 ## Dataset
 
@@ -52,9 +52,14 @@ print(scripts["Armn"]["summary"])
 
 ## License
 
-The code is licensed under the [Apache 2](./LICENSE) license. 
+### Python code
 
-The dataset contains some information from: 
+Copyright 2021-2022 Noto Authors. Distributed under the [Apache 2](./LICENSE) license.
 
-- [ScriptSource](https://scriptsource.org/), Copyright © 2022 SIL International, released under the [Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license (CC-BY-SA).
-- [Unicode.org](https://www.unicode.org/), licensed under the [Unicode, Inc. license agreement, data files and software](https://www.unicode.org/license.txt).
+### Dataset
+
+The dataset contains some information from:
+
+- [The Noto project](https://github.com/notofonts/). Copyright 2021-2022 © Noto Authors. Distributed under the [Apache 2](./LICENSE) license.
+- [ScriptSource](https://scriptsource.org/). Copyright © 2022 SIL International. Distributed under the [Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license (CC-BY-SA).
+- [ISO](https://www.unicode.org/iso15924/) and [Unicode, Inc.](https://www.unicode.org/). Copyright © 1991-2022 ISO, Unicode, Inc. All rights reserved. Distributed under the [Unicode Terms of Use](https://www.unicode.org/copyright.html) and [Unicode license agreement for data files and software](https://www.unicode.org/license.txt).
